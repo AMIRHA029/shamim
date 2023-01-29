@@ -1,0 +1,65 @@
+﻿<html dir="rtl" lang="fa-IR">
+<head>
+
+    <title>ورود</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 , maximum-scale=1">
+    <link href="Css/Main.css" rel="stylesheet" />
+    <link href="Css/Style.css" rel="stylesheet" />
+
+</head>
+<body class="rtl bg-account login2 min-h">
+
+    <div class="container card shadow d-flex justify-content-center mt-5">
+
+        <ul class="nav nav-pills shadow-sm" id="pills-tab" role="tablist">
+            <li class="nav-link"> <a class="nav-link active" id="pills-login-tab" data-toggle="pill" href="#pills-login" role="tab" aria-controls="pills-login" aria-selected="true">ورود</a> </li>
+            <li class="nav-link"> <a class="nav-link" id="pills-register-tab" data-toggle="pill" href="#pills-register" role="tab" aria-controls="pills-register" aria-selected="false">عضویت</a></li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent p-3">
+            <div class="tab-pane fade show active p-4 text-center" id="pills-login" role="tabpanel" aria-labelledby="pills-login-tab">
+                <p class="mb-3">لطفا وارد سایت شوید !</p>
+                 <form action="">
+                    <div class="form-group ">
+                        <i class="fal fa-user"></i>
+                        <input type="text" name="text" id="text" class="form-control" required placeholder="نام کاربری">
+                    </div>
+                    <div class="form-group mb-4">
+                        <i class="fal fa-key"></i>
+                        <input type="password" name="password" id="password" class="form-control" required placeholder="کلمه عبور">
+                    </div>
+                    <button type="submit" name="login" id="login" class="btn py-2 btn-block text-white btn-grad radius10 mb-4">ورود<i class="fal fa-angle-left mr-2"></i></button>
+                </form>
+            </div>
+            <div class="tab-pane fade p-4 text-center" id="pills-register" role="tabpanel" aria-labelledby="pills-register-tab">
+                <p class="mb-3">جهت استفاده از امکانات سایت عضو شوید !</p>
+                <form action="">
+                    <div class="form-group">
+                        <i class="fal fa-user"></i>
+                        <input type="text" name="text" id="text" class="form-control" required placeholder="نام کاربری">
+                    </div>
+                    <div class="form-group">
+                        <i class="fal fa-envelope"></i>
+                        <input type="email" name="email" id="email" class="form-control" required placeholder="آدرس ایمیل">
+                    </div>
+                    <div class="form-group">
+                        <i class="fal fa-key"></i>
+                        <input type="password" name="password" id="password" class="form-control" required placeholder="کلمه عبور">
+                    </div>
+                    <div class="form-group mb-4">
+                        <i class="fal fa-key"></i>
+                        <input type="password" name="password" id="password" class="form-control" required placeholder="تکرار کلمه عبور">
+                    </div>
+                    <button type="submit" name="login" id="login" class="btn px-4 py-2 btn-block text-white btn-grad radius10 mb-4">عضویت<i class="fal fa-angle-left mr-2"></i></button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="Js/jquery.min.js"></script>
+    <script src="Js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
